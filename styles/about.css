@@ -1,0 +1,140 @@
+:root {
+    --logoColor: #6831ff;
+}
+
+body>header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icon {
+    font-size: 24pt;
+    color: var(--logoColor);
+}
+
+.header-title {
+    font-size: 24pt;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#sale {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.850455216266194) 0, rgba(255, 255, 255, 0.9521358885351015) 30%, rgba(255, 255, 255, 1) 100%), url(../images/woman-notebook-organizer-notepad.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 7em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.sale-offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+}
+
+.sale-offer h2 {
+    font-size: 40pt;
+    font-weight: 700;
+}
+
+.sale-offer p {
+    text-align: center;
+    font-size: 16pt;
+    line-height: 1.5;
+    color: var(--semiLight);
+}
+
+.sale-offer a {
+    padding: 1em 2em;
+    background: var(--navBg);
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.otherInfo-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.otherInfo-bottom div {
+    flex: 1;
+}
+
+.otherInfo-bottom-1 {
+    padding: 2em 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background: var(--lightBg);
+    border-radius: 10px;
+}
+
+.otherInfo-bottom-2 {
+    color: var(--white);
+    background: linear-gradient(rgba(104, 49, 255, 0.8), rgba(104, 49, 255, 0.8)), url(../images/desk3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 0 3em;
+}
+
+.otherInfo-bottom-2 h2 {
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+.otherInfo-bottom-2 p {
+    line-height: 1.5;
+}
+
+.otherInfo-bottom-2 p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--white);
+}
+
+body {
+    padding: 1em 7em;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        padding: 1em 3em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding: 1em 0;
+    }
+}
+
+a {
+    width: 25%;
+    text-decoration: none;
+    color: var(--black);
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --logoColor: #6831ff;
+}
+
+body,
+html,
+main {
+    height: 100%;
+}
+
+body {
+    padding: 1em 7em;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+body>header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icon {
+    font-size: 24pt;
+    color: var(--logoColor);
+}
+
+.header-title {
+    font-size: 24pt;
+    text-align: center;
+    line-height: 1.2;
+}
+
+main {
+    padding: 2em;
+}
+
+footer p {
+    padding: 1em;
+    text-align: center;
+    color: var(--semiLight);
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        padding: 1em 3em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding: 1em 0;
+    }
+}
+
+a {
+    width: 25%;
+    text-decoration: none;
+    color: var(--black);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppers Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-icon"><i class="fa-solid fa-chess-queen"></i></div>
+        <h1 class="header-title"><a href="./home.html">Prem Chauhan's Shopping List</a></h1>
+    </header>
+
+    <main>
+
+        <h2>Personal Information</h2>
+
+        <form action="./thanks.html" netlify method="post">
+            <fieldset>
+                <legend>Name</legend>
+                <p>
+                    <label for="firstname">First name:</label>
+                    <input type="text" name="firstname" id="firstname">
+                </p>
+                <p>
+                    <label for="lastname">Last name:</label>
+                    <input type="text" name="lastname" id="lastname">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Information</legend>
+                <p>
+                    <label for="E-mail">E-mail:</label>
+                    <input type="text" name="E-mail" id="E-mail">
+                </p>
+                <p>
+                    <label for="Contact_number">Contact number:</label>
+                    <input type="tel" name="Contact_number" id="Contact_number" minlength="10" maxlength="10">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Type of query</legend>
+                <p>
+                    <label for="query" id="query">Choose a Query realted:</label>
+                    <select name="type of query">
+                        <option value="Career Opportunity">Career opportunity</option>
+                        <option value="Business Proposal">Business proposal</option>
+                        <option value="General Query">General query</option>
+                        <option value="Complaint">Complaint</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Explain your query</legend>
+                <p>
+                    <label for="Message">Explain in detail about query</label>
+                    <textarea id="Message" name="Message" rows="5" cols="70">
+                 </textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <input type="Submit" value="Submit">
+                </p>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2024 Prem Chauhan</p>
+    </footer>
+</body>
+
+</html>
